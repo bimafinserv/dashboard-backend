@@ -27,7 +27,7 @@ app.post("/getquote", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("welcome to bimafinserv.com");
+  res.send("welcome to bimafinserv.com home page");
 });
 
 // app.listen(5000);
